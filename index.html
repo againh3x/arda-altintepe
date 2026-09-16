@@ -5,7 +5,7 @@
   <title>Arda Altintepe</title>
   <meta name="author" content="Arda Altintepe">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Arda Altintepe — researcher in ML, ECG, and computational cardiology. Incoming CS student at Cornell University.">
+  <meta name="description" content="Arda Altintepe — Computer Science student at Cornell University working on machine learning for clinical cardiology and ECG analysis.">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -66,19 +66,6 @@
       display: block;
     }
 
-    .photo-placeholder {
-      width: 160px;
-      height: 200px;
-      border-radius: 8px;
-      background: #eee;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #aaa;
-      font-size: 13px;
-      text-align: center;
-      border: 1px dashed #ccc;
-    }
 
     /* ── SECTION ── */
     h2 {
@@ -109,19 +96,6 @@
       border: 1px solid #ddd;
     }
 
-    .paper-img-placeholder {
-      width: 140px;
-      height: 90px;
-      background: #f5f5f5;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #bbb;
-      font-size: 11px;
-      text-align: center;
-    }
 
     .paper-info { flex: 1; }
 
@@ -195,7 +169,7 @@
     <div class="header-text">
       <h1>Arda Altintepe</h1>
       <p>
-        I am an incoming student in Computer Science at
+        I am a freshman studying Computer Science at
         <a href="https://www.cs.cornell.edu/">Cornell University</a> (Class of 2030).
       </p>
       <p>
@@ -205,8 +179,8 @@
         classification and deep learning for emergency department triage.
       </p>
       <p>
-        I did this work while at
-        <a href="https://www.horacemann.org/">Horace Mann School</a>, Bronx, NY,
+        I did this work while a student at
+        <a href="https://www.horacemann.org/">Horace Mann School</a> in New York,
         collaborating with researchers at Princeton University and Emory University.
       </p>
       <div class="links">
@@ -222,25 +196,15 @@
         then uncomment the <img> tag and remove the placeholder div.
       -->
       <!-- <img src="photo.jpg" alt="Arda Altintepe"> -->
-      <div class="photo-placeholder">Add photo.jpg<br>here</div>
     </div>
   </div>
 
   <!-- RESEARCH -->
   <h2>Research</h2>
-  <p style="color:#555; margin-bottom:24px; font-size:14px;">
-    Representative papers are highlighted.
-  </p>
-
   <!-- Paper 1 — Hospitalization (2025) -->
   <div class="paper highlight-row">
     <div class="paper-img">
-      <!--
-        Save a representative figure from this paper as ecg_hospitalization.png
-        in the same folder, then swap in the <img> tag.
-      -->
-      <!-- <img src="ecg_hospitalization.png" alt="ECG Hospitalization Model"> -->
-      <div class="paper-img-placeholder">Add figure image</div>
+      <a href="https://cardio.jmir.org/2025/1/e80569"><img src="ecg_hospitalization.png" alt="Architecture of the serial-ECG hospital admission model"></a>
     </div>
     <div class="paper-info">
       <div class="paper-title">
@@ -258,10 +222,10 @@
         <a href="https://github.com/againh3x/ECGhospitalization">code</a>
       </div>
       <div class="paper-desc">
-        We built a multimodal deep-learning model that fuses serial 12-lead ECG waveforms
-        , sequential vital signs, and 353 static clinical features
-        to predict hospital admission for ED patients presenting with cardiac symptoms. 
-        The model was trained and evaluated on 30,421 patients accross the MIMIC-IV databases.
+        We built a multimodal deep-learning model that fuses serial 12-lead ECG waveforms,
+        sequential vital signs, and 353 static clinical features
+        to predict hospital admission for ED patients presenting with cardiac symptoms.
+        The model was trained and evaluated on 30,421 patients across the MIMIC-IV databases.
       </div>
     </div>
   </div>
@@ -269,8 +233,7 @@
   <!-- Paper 2 — Cardiomyopathy (2026) -->
   <div class="paper highlight-row">
     <div class="paper-img">
-      <!-- <img src="ecg_cardiomyopathy.png" alt="ECG Cardiomyopathy Classification"> -->
-      <div class="paper-img-placeholder">Add figure image</div>
+      <a href="https://www.mdpi.com/2075-4418/16/5/719"><img src="ecg_cardiomyopathy.png" alt="ECG fiducial points detected across beats"></a>
     </div>
     <div class="paper-info">
       <div class="paper-title">
@@ -280,7 +243,7 @@
         <strong>Arda Altintepe</strong>, Asu Rustemli, Amir Reza Vazifeh, Jason W. Fleischer
       </div>
       <div class="paper-venue">
-        <em>Diagnostics</em>, 2026
+        <em>Diagnostics</em>, 2026 &middot; cover article, Vol. 16, Issue 5
       </div>
       <div class="paper-links">
         <a href="https://www.mdpi.com/2075-4418/16/5/719">publication</a> /
@@ -289,7 +252,7 @@
       <div class="paper-desc">
         We developed the first fully open-source ECG-based pipeline for cardiomyopathy
         classification, distinguishing hypertrophic and dilated cardiomyopathy subtypes using standard ECG
-        and 3D vectorcardiogram (VCG) features derived from open data. 
+        and 3D vectorcardiogram (VCG) features derived from open data.
       </div>
     </div>
   </div>
